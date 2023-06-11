@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="js/index.js"></script>
+
+    <title>Calculadora Web</title>
 </head>
 <body>
-    
+    <div class="contenedor">
+        <h1>Calculadora</h1>
+        <select name="Calculo" id="operaciones">
+            <option selected>Selecciona operación</option>
+            <option>Suma</option>
+            <option>Resta</option>
+            <option>Multiplicación</option>
+            <option>División</option>
+        </select>
+            <input type="text" class="campos" placeholder="Introduce el Primer valor" id="num1">
+            <input type="text" class="campos" placeholder="Introduce el Segundo valor" id="num2">
+            <input type="text" class="no" name="dato" id="Resp">
+            <input type="button" value="Calcular"  class="boton" onclick="Calcular()">
+            <input type="button" value="Borrar todo" class="boton" onclick="eliminar()">
+    </div>
+    <div class="operaciones">
+        <table class="table">
+            <thead>
+                <th scope="col">Calculos</th>
+            </thead>
+            <tbody id="calculo">
+            </tbody>
+            <textarea name="" id="cal" cols="30" rows="10" class="no"> 
+                <tr>
+                    <td>{resultado}</td>
+                </tr>
+            </textarea>
+        </table>
+    </div>
 </body>
 </html>

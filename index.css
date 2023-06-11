@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.no {
+    display: none;
+}
+.contenedor {
+    display: block;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    
+    border: 2px solid red;
+}
+
+.operaciones {
+    display: block;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 1%;
+    
+    border: 2px solid red;
+}
+h1 {
+    font-weight: bold;
+    color: white;
+}
+.calculo {
+    display: block;
+}
+
+#operaciones {
+    width: 60%;
+    height: 30px;
+    
+    margin-left: 19%;
+    
+}
+.campos {
+    width: 59%;
+    height: 30px; 
+    margin-left: 19%;
+    margin-top: 2%;
+      
+}
+
+.boton {
+    width: 60%;
+    height: 35px;
+    margin-left: 19%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+ }
